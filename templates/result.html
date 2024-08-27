@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+
+<style>
+
+.bdy{
+    margin: 0px;
+    padding: 0px;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+
+</style>
+
+<body class="bdy">
+     
+    <div class="main">
+           
+        <h1 style="text-align: center;">Crop Result:</h2>
+        <h2 style="text-align: center;">The Recommended Crop is:
+        {{predict[0]}}</h2>
+
+    </div>
+    
+</body>
+</html>
